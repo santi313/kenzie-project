@@ -132,7 +132,10 @@
   .about ul,
   .about p,
   .about button {
-    font-size: 18px;
+    font-size: 15px;
+  }
+  .about ul span {
+    width: 70px;
   }
   .background .gbr img {
     width: 200px;
@@ -180,11 +183,6 @@
 
 /* small mobile */
 @media (max-width: 376px) {
-  .about ul,
-  .about p,
-  .about button {
-    font-size: 17px;
-  }
   .cu .sm img {
     width: 40px;
     height: 40px;
@@ -204,14 +202,6 @@
   }
   footer .links a {
     margin: 0 3px;
-  }
-  .about ul span {
-    width: 70px;
-  }
-  .about ul,
-  .about p,
-  .about button {
-    font-size: 15px;
   }
   .background ul,
   .background p {
