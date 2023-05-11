@@ -90,6 +90,7 @@
 @media (max-width: 426px) {
   .p {
     justify-content: center;
+    padding: 20px 10px;
   }
   .p .logo {
     display: none;
