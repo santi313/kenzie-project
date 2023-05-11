@@ -1,0 +1,233 @@
+/* laptop large */
+@media (max-width: 1445px) {
+  .au .home .judul {
+    display: none;
+  }
+  .about {
+    width: 80%;
+    height: 65%;
+  }
+  .background {
+    padding-bottom: 100px;
+  }
+}
+
+/* laptop */
+@media (max-width: 1030px) {
+  .p .menu a {
+    font-size: 25px;
+    margin: 0 10px;
+  }
+  .about .tm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -25px;
+  }
+  .about img {
+    margin: 0;
+    margin-right: 20px;
+  }
+  .background .gbr img {
+    width: 300px;
+    height: 250px;
+  }
+  .background .gbr1,
+  .background .gbr2 {
+    width: 900px;
+    padding: 10px 15px;
+  }
+  .galery {
+    padding-bottom: 120px;
+  }
+  .cu {
+    padding: 0 0 100px;
+  }
+  .cu .contact {
+    display: block;
+    padding: 10px;
+  }
+}
+
+/* tablet */
+@media (max-width: 769px) {
+  .p span {
+    display: none;
+  }
+  footer .links a {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+  .about .tm {
+    flex-direction: column;
+  }
+  .about img {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+  }
+  .about ul {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  .about p {
+    font-size: 20px;
+  }
+  .background .gbr1,
+  .background .gbr2 {
+    width: 80%;
+    flex-direction: column;
+  }
+  .background .detail {
+    margin-top: -30px;
+  }
+  .galery .e {
+    padding: 0;
+  }
+}
+
+/* mobile */
+@media (max-width: 426px) {
+  .p {
+    justify-content: center;
+  }
+  .p .logo {
+    display: none;
+  }
+  .p .menu a {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  .home .judul {
+    width: 80%;
+  }
+  .home .judul h1 {
+    font-size: 40px;
+  }
+  .home .judul p {
+    font-size: 25px;
+  }
+  .home .judul button {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+  footer {
+    padding: 15px 10px 5px;
+  }
+  footer .links a {
+    font-size: 16px;
+    color: black;
+    margin: 0 7px;
+  }
+  .about {
+    right: 40px;
+    height: 70%;
+    top: 130px;
+  }
+  .about h1 {
+    font-size: 30px;
+    top: -30px;
+  }
+  .about ul,
+  .about p,
+  .about button {
+    font-size: 18px;
+  }
+  .background .gbr img {
+    width: 200px;
+    height: 100px;
+  }
+  .background h1 {
+    font-size: 40px;
+    margin-top: 90px;
+  }
+  .background p {
+    font-size: 16px;
+    padding: 0;
+  }
+  .background ul {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .background button {
+    font-size: 18px;
+    margin: 10px 10px;
+  }
+  .galery h1 {
+    margin-top: 100px;
+    width: 400px;
+  }
+  .galery h1 span {
+    font-size: 40px;
+  }
+  .galery .e {
+    margin: 0;
+  }
+  .cu .map iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .cu input,
+  .cu textarea {
+    width: 300px;
+  }
+  .cu h1 {
+    font-size: 40px;
+    padding-top: 90px;
+  }
+}
+
+/* small mobile */
+@media (max-width: 376px) {
+  .about ul,
+  .about p,
+  .about button {
+    font-size: 17px;
+  }
+  .cu .sm img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* very small mobile */
+@media (max-width: 321px) {
+  .p {
+    padding: 20px 0;
+  }
+  .p .menu {
+    text-align: center;
+  }
+  footer .links a {
+    margin: 0 3px;
+  }
+  .about ul span {
+    width: 70px;
+  }
+  .about ul,
+  .about p,
+  .about button {
+    font-size: 15px;
+  }
+  .background ul,
+  .background p {
+    font-size: 15px;
+  }
+  .p .menu a {
+    margin: 0 2px;
+  }
+  .cu .map iframe {
+    width: 250px;
+    height: 200px;
+  }
+  .cu input,
+  .cu textarea {
+    width: 250px;
+  }
+  .galery h1 {
+    width: 350px;
+  }
+  .galery .box {
+    margin: 25px 10px;
+  }
+}
