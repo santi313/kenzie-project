@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet" />
   </head>
+
   <body style="background-color: rgb(223, 219, 219)">
     <nav class="p">
       <a href="index.html" class="logo">
@@ -42,14 +43,14 @@
           <textarea id="pesan" rows="5"></textarea> <br />
           <button type="button" id="kirim" onclick="wa()">Kirim</button>
         </form> -->
-        <form action="send_mail.php" method="post">
+        <form action="mailto:ms.santi.dcc@gmail.com" method="post" enctype="text/plain">
           <label>Nama</label> <br />
           <input type="text" name="nama" required /> <br />
-          <label>Email</label> <br />
-          <input type="email" name="email" required /> <br />
+          <!-- <label>Email</label> <br />
+          <input type="email" name="email" required /> <br /> -->
           <label>Pesan</label> <br />
           <textarea name="pesan" rows="5" required></textarea> <br />
-          <button type="submit" name="kirim">Kirim</button>
+          <button type="submit">Kirim</button>
         </form>
       </div>
 
