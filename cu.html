@@ -33,8 +33,7 @@
         <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.10371884159764!2d112.7748895!3d-7.7196343!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7d1afffd41dc9%3A0x813f326f70f4d136!2sCV.%20Poly%20Artalindo!5e0!3m2!1sid!2sid!4v1683711736391!5m2!1sid!2sid" width="500" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <!-- <form action="https://formsubmit.co/ms.santi.dcc@gmail.com" method="post"> -->
-        <form>
+        <!-- <form>
           <label>Nama</label> <br />
           <input type="text" id="nama" /> <br />
           <label>Email</label> <br />
@@ -42,9 +41,18 @@
           <label>Pesan</label> <br />
           <textarea id="pesan" rows="5"></textarea> <br />
           <button type="button" id="kirim" onclick="wa()">Kirim</button>
-          <!-- <button type="submit">Send</button> -->
+        </form> -->
+        <form action="send_mail.php" method="post">
+          <label>Nama</label> <br />
+          <input type="text" name="nama" required /> <br />
+          <label>Email</label> <br />
+          <input type="email" name="email" required /> <br />
+          <label>Pesan</label> <br />
+          <textarea name="pesan" rows="5" required></textarea> <br />
+          <button type="submit" name="kirim">Kirim</button>
         </form>
       </div>
+
       <div class="sm">
         <!-- <div class="email">
           <a href="https://formsubmit.co/el/pumujo" target="_blank"><img src="img/gmail.png" /></a>
