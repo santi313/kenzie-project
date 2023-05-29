@@ -7,7 +7,7 @@ function wa() {
   let waUrl = "https://wa.me/6283851744849/?text=" + "Nama : " + nama + "%0a" + "Email : " + email + "%0a" + "Pesan : " + pesan;
 
   if (nama == "" || email == "" || pesan == "") {
-    window.alert("SIlahkan lengkapi form terlebih dahulu");
+    window.alert("Silahkan lengkapi form terlebih dahulu");
   } else {
     window.open(waUrl);
     document.getElementById("nama").value = "";
