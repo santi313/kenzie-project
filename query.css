@@ -1,5 +1,5 @@
 /* laptop large */
-@media (max-width: 1445px) {
+@media (max-width: 1500px) {
   .au .home .judul {
     display: none;
   }
@@ -7,13 +7,10 @@
     width: 80%;
     height: 65%;
   }
-  .background {
-    padding-bottom: 100px;
-  }
 }
 
 /* laptop */
-@media (max-width: 1030px) {
+@media (max-width: 1439px) {
   .p .menu a {
     font-size: 25px;
     margin: 0 10px;
@@ -28,13 +25,9 @@
     margin: 0;
     margin-right: 20px;
   }
-  .background .gbr img {
-    width: 300px;
-    height: 250px;
-  }
-  .background .gbr1,
-  .background .gbr2 {
-    width: 900px;
+  .background .gbr1 {
+    /* width: 900px; */
+    width: 80vw;
     padding: 10px 15px;
   }
   .galery {
@@ -50,7 +43,7 @@
 }
 
 /* tablet */
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
   .p span {
     display: none;
   }
@@ -73,10 +66,10 @@
   .about p {
     font-size: 20px;
   }
-  .background .gbr1,
-  .background .gbr2 {
+  .background .gbr1 {
     width: 80%;
     flex-direction: column;
+    align-items: center;
   }
   .background .detail {
     margin-top: -30px;
@@ -87,7 +80,7 @@
 }
 
 /* mobile */
-@media (max-width: 426px) {
+@media (max-width: 767px) {
   .p {
     justify-content: center;
     padding: 20px 10px;
@@ -138,8 +131,11 @@
     width: 70px;
   }
   .background .gbr img {
-    width: 200px;
-    height: 100px;
+    height: 220px;
+  }
+  .background .gbr1 tr {
+    display: flex;
+    flex-direction: column;
   }
   .background h1 {
     font-size: 40px;
@@ -167,6 +163,12 @@
   .galery .e {
     margin: 0;
   }
+  .galery .overlay img {
+    width: 90vw;
+  }
+  .galery .overlay .close {
+    left: 45%;
+  }
   .cu .map iframe {
     width: 300px;
     height: 200px;
@@ -182,15 +184,19 @@
 }
 
 /* small mobile */
-@media (max-width: 376px) {
+@media (max-width: 424px) {
   .cu .sm img {
     width: 40px;
     height: 40px;
   }
+  .background .gbr1 img {
+    width: 220px;
+    /* height: 200px; */
+  }
 }
 
 /* very small mobile */
-@media (max-width: 321px) {
+@media (max-width: 374px) {
   .p {
     padding: 20px 0;
   }
