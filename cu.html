@@ -43,14 +43,25 @@
           <textarea id="pesan" rows="5"></textarea> <br />
           <button type="button" id="kirim" onclick="wa()">Kirim</button>
         </form> -->
-        <form action="mailto:ms.santi.dcc@gmail.com" method="post" enctype="text/plain">
+        <!-- <form action="mailto:ms.santi.dcc@gmail.com" method="post" enctype="text/plain">
           <label>Nama</label> <br />
           <input type="text" name="nama" required /> <br />
-          <!-- <label>Email</label> <br />
-          <input type="email" name="email" required /> <br /> -->
+          <label>Email</label> <br />
+          <input type="email" name="email" required /> <br />
           <label>Pesan</label> <br />
           <textarea name="pesan" rows="5" required></textarea> <br />
           <button type="submit">Kirim</button>
+        </form> -->
+        <form action="send.php" method="post">
+          <!-- <label>Nama</label> <br />
+          <input type="text" name="nama" required /> <br /> -->
+          <label>Email</label> <br />
+          <input type="email" name="email" required /> <br />
+          <label>subjek</label> <br />
+          <input type="text" name="subjek" required /> <br />
+          <label>Pesan</label> <br />
+          <textarea name="pesan" rows="5" required></textarea> <br />
+          <center><button type="submit" name="kirim">Kirim</button></center>
         </form>
       </div>
 
